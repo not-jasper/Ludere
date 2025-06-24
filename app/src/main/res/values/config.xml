@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- A unique identifier for the app (no spaces or special characters allowed) -->
-    <string name="config_id">legendofzeldaii</string>
+    <string name="config_id">kirbygba</string>
 
     <!-- The pretty name for the app -->
-    <string name="config_name">Legend of Zelda II</string>
+    <string name="config_name">Kirby GBA</string>
 
     <!-- LibRetro core to fetch for this ROM (excluding _libretro_android.so) -->
     <string name="config_core">mgba</string>
@@ -26,10 +26,6 @@
         1: Portrait only
         2: Landscape only
         3: Any orientation (including upside-down)
-
-        NOTE: Landscape <-> Portrait can be slow,
-              as it involves rebuilding the
-              emulator instance!
     -->
     <integer name="config_orientation">2</integer>
 
@@ -37,7 +33,7 @@
     <bool name="config_gamepad">true</bool>
 
     <!-- Should we vibrate on touch? -->
-    <bool name="config_gamepad_haptic">true</bool>
+    <bool name="config_gamepad_haptic">false</bool>
 
     <!-- GamePad buttons to display -->
     <bool name="config_gamepad_a">true</bool>
@@ -50,5 +46,5 @@
     <bool name="config_gamepad_r1">true</bool>
 
     <!-- Should the left DPAD be replaced with an analog stick? -->
-    <bool name="config_left_analog">false</bool>
+    <bool name="config_left_analog">true</bool>
 </resources>
